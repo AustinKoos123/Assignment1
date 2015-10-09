@@ -1,7 +1,6 @@
 #ifndef ARRAY_H
 #define ARRAY_H
 #include "Exception.h"
-#include <cmath>
 
 /************************************************************************
 * Class: Array
@@ -84,6 +83,6 @@ private:
 	int m_startIndex;				//Starting index of the array
 };
 
-#include "Array.cpp"
+#include "Array.tpp"
 
 #endif
