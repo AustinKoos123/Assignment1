@@ -78,5 +78,16 @@ int main()
 		cout << except;
 	}
 
+	arrInt.setLength(0);
+
+	try
+	{
+		cout << endl << arrInt[-1] << endl;
+	}
+	catch (Exception &except)
+	{
+		cout << except;
+	}
+
 	return 0;
 }
